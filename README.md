@@ -12,7 +12,7 @@ cd <your-directory-name>
 ```
 1. Install packages
 ```bash
-npm i`
+npm i
 ```
 1. Reset git
 ```bash
