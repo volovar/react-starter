@@ -1,13 +1,21 @@
-# Readt Starter
-Quick start setup for a React project
+# React Starter
+Quick start setup for a React project.
 
 ## Setup
 1. Clone the repo
-`git clone ... <directory-name>`
+```bash
+git clone https://github.com/volovar/react-starter.git <your-directory-name>
+```
 1. Move into the directory
-`cd <directory-name>`
+```bash
+cd <your-directory-name>
+```
 1. Install packages
-`npm i` or `yarn i`
+```bash
+npm i` or `yarn i
+```
 1. Reset git
-`npm run reset-git`
+```bash
+npm run reset-git
+```
 
