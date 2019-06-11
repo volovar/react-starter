@@ -3,6 +3,7 @@ import { css } from "emotion";
 
 const appStyles = css`
     background: lightblue;
+    box-sizing: border-box;
     height: 100%;
     padding: 2em;
 `;
