@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { css } from "emotion";
+import { css } from "@emotion/core";
 
 const appStyles = css`
     background: lightblue;
@@ -9,7 +9,7 @@ const appStyles = css`
 
 class App extends Component {
     render() {
-        return <div className={appStyles}>Hello React Starter</div>;
+        return <div css={appStyles}>Hello React Starter</div>;
     }
 }
 
