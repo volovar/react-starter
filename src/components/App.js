@@ -1,17 +1,15 @@
-import React, { Component } from "react";
-import { css } from "@emotion/core";
+import React from "react";
+import { Global } from "@emotion/core";
+import { globalCss } from "./global.styles";
+import { appCss } from "./app.styles";
 
-const appStyles = css`
-    background: lightblue;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 2em;
-`;
-
-class App extends Component {
-    render() {
-        return <div css={appStyles}>Hello React Starter</div>;
-    }
-}
+const App = () => {
+    return (
+        <>
+            <Global styles={globalCss} />
+            <div css={appCss}>Hello React Starter</div>
+        </>
+    );
+};
 
 export default App;
